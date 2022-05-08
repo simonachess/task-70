@@ -11,15 +11,13 @@
   </head>
   <body>
     <div class="main">
+		<div class="image"></div>
       <div class="emoji mb-6">💣🤯💥</div>
       <button class="button">Boom?</button>
     </div>
   </body>
   <script>
 	  window.onload = function(){
-		 let newDiv = document.createElement("div")
-	  newDiv.classList.add("image")
-	  document.querySelector(".main").appendChild(newDiv)
 	  let newImg = document.createElement("img")
 	  document.querySelector(".image").appendChild(newImg)
 	  newImg.setAttribute("image", '')
