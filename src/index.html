@@ -11,21 +11,11 @@
   </head>
   <body>
     <div class="main">
-		<div class="image"></div>
+		<div class="image">
+			<img/>
+		</div>
       <div class="emoji mb-6">💣🤯💥</div>
       <button class="button">Boom?</button>
     </div>
   </body>
-  <script>
-	  window.onload = function(){
-	  let newImg = document.createElement("img")
-	  document.querySelector(".image").appendChild(newImg)
-	  newImg.setAttribute("image", '')
-	  newImg.setAttribute("src", "https://picsum.photos/200/300")
-	  document.querySelector(".image").addEventListener("click", clicked) 
-	  function clicked(){
-		  document.querySelector("img").style = "transform: scale(2)"
-	  }
-	}
-  </script>
 </html>
